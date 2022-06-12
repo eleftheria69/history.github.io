@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/Hero-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark.css">
     <link rel="stylesheet" href="assets/css/Pricing-Free-Paid.css">
@@ -24,18 +25,24 @@
 
 <body class="text-dark" style="background: rgb(71,74,101);width: 100%;height: 100%;">
     <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3" style="width: 100%;">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: url(&quot;assets/img/Dragon_qui_marche_16px.gif&quot;) right / contain no-repeat;"></span><span style="width: 200.6562px;">History</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: url(&quot;assets/img/Dragon_qui_marche_16px.gif&quot;) right / contain no-repeat;padding-right: 0px;margin-right: 0px;"></span><span style="width: 200.6562px;padding-right: 0px;">History - The Game</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-6">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">English</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html" target="_top">Français</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html" style="border-style: none;">Menu Principal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Documentation.html" style="border-style: none;">Documentation</a></li>
                 </ul>
-                <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
+                <div class="d-md-none my-2"><a class="btn btn-primary" role="button" href="#" style="background: url(&quot;assets/img/Bouton_long_1.png&quot;) center / cover no-repeat;width: 185px;border-style: none;padding-left: 2px;padding-right: 2px;height: 45px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-download" data-bss-hover-animate="swing" style="background: url(&quot;assets/img/Dragon_qui_marche_16px.gif&quot;);margin-right: 9px;">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+                        </svg>Download Now</a></div>
             </div>
-            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" href="#" style="background: url(&quot;assets/img/Bouton_long_1.png&quot;) center / contain no-repeat;width: 149px;border-style: none;">Button</a></div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="#" style="background: url(&quot;assets/img/Bouton_long_1.png&quot;) center / cover no-repeat;width: 185px;border-style: none;padding-left: 2px;padding-right: 2px;height: 45px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-download" data-bss-hover-animate="swing" style="background: url(&quot;assets/img/Dragon_qui_marche_16px.gif&quot;);margin-right: 9px;">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+                    </svg>Download Now</a></div>
         </div>
     </nav>
-    <div data-bss-parallax-bg="true" style="height: 100%;background-image: url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);background-position: center;background-size: cover;width: 100%;"><img class="img-fluid" src="assets/img/Robot_qui_sallume.gif" style="width: 100%;height: 103%;"></div>
+    <div data-bss-parallax-bg="true" style="height: 100%;background-image: url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);background-position: center;background-size: cover;width: 100%;"><img class="img-fluid" src="assets/img/Robot_qui_sallume.gif" style="width: 100%;height: 103%;border-style: none;"></div>
     <div data-bss-parallax-bg="true" style="height: 70%;margin-top: 10px;width: 100%;">
         <div class="container">
             <div class="row" style="width: 100%;height: 100%;">
@@ -43,8 +50,8 @@
                     <h1 style="font-family: 'Berkshire Swash', serif;text-align: center;font-weight: bold;font-size: 250%;margin: 0px;margin-top: 20%;margin-left: 0px;width: 50%;">Personnages&nbsp;</h1>
                     <p style="font-family: 'Croissant One', serif;margin-left: 0px;font-size: 100%;margin-bottom: 0px;">Prochainement, vous pourrez voir ci contre nos deux super amis</p>
                 </div>
-                <div class="col-md-4" style="width: 29%;"><img src="assets/img/Bubu.png" style="width: 124%;margin-top: 55px;"></div>
-                <div class="col" style="height: 500px;width: 29%;"><button class="btn btn-primary" type="button" style="background: url(&quot;assets/img/BUBULLE.png&quot;) no-repeat, rgba(13,110,253,0);background-size: contain, auto;height: 7vw;width: 7vw;border-color: rgba(255,255,255,0);margin-top: 38px;margin-bottom: 244px;margin-left: 22px;"></button><button class="btn btn-primary" type="button" style="background: url(&quot;assets/img/BUBULLE.png&quot;) no-repeat, rgba(13,110,253,0);background-size: contain, auto;width: 7vw;border-color: rgba(255,255,255,0);border-top-color: rgb(255,;border-right-color: 255,;border-bottom-color: 255);border-left-color: 255,;height: 7vw;"></button></div>
+                <div class="col-md-4" style="width: 29%;"><img src="assets/img/BubuRobot.png" style="width: 124%;margin-top: 55px;"></div>
+                <div class="col" style="height: 500px;width: 29%;"><button class="btn btn-primary" type="button" style="background: url(&quot;assets/img/BUBULLE.png&quot;) no-repeat, rgba(13,110,253,0);background-size: contain, auto;height: 7vw;width: 7vw;margin-top: 38px;margin-bottom: 244px;margin-left: 22px;border-style: none;"></button><button class="btn btn-primary" type="button" style="background: url(&quot;assets/img/BUBULLE.png&quot;) no-repeat, rgba(13,110,253,0);background-size: contain, auto;width: 7vw;height: 7vw;border-style: none;"></button></div>
             </div>
         </div>
     </div>
@@ -57,23 +64,23 @@
                     <div class="swiper-slide" style="background: url(&quot;assets/img/cadre_rapido.png&quot;) center / contain no-repeat;width: 90%;height: 90%;margin: 0%;text-align: center;"></div>
                 </div>
                 <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev" style="color: rgba(17,91,173,0);background: url(&quot;assets/img/flecheg.png&quot;) no-repeat, rgba(81,12,12,0);background-size: cover, auto;"></div>
-                <div class="swiper-button-next" style="background: url(&quot;assets/img/fleche.png&quot;) no-repeat;background-size: cover;color: rgba(0,122,255,0);"></div>
+                <div class="swiper-button-prev" style="color: rgba(17,91,173,0);background: url(&quot;assets/img/flecheg.png&quot;) no-repeat, rgba(81,12,12,0);background-size: cover, auto;border-style: none;"></div>
+                <div class="swiper-button-next" style="background: url(&quot;assets/img/fleche.png&quot;) no-repeat;background-size: cover;color: rgba(0,122,255,0);border-style: none;"></div>
             </div>
         </div>
     </div>
     <div data-bss-parallax-bg="true" style="height: 200%;background: #474a65;width: 100%;">
         <div class="row mb-4 mb-lg-5">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
-                <h2 style="font-family: Dekko, serif;font-weight: bold;font-size: 7vw;">Notre équipe</h2>
-                <p class="w-lg-50" style="font-family: Dekko, serif;font-size: 2vw;">Ce jeu est un projet qui a été&nbsp; porté par quatre jeunes gens pour leur première année de prépa</p>
+                <h2 style="font-family: Dekko, serif;font-weight: bold;font-size: 7vw;padding-top: 24px;padding-bottom: 0px;">Notre équipe</h2>
+                <p class="w-lg-50" style="font-family: Dekko, serif;font-size: 2vw;padding-bottom: 0px;margin-bottom: -30px;">Ce jeu est un projet qui a été&nbsp; porté par quatre jeunes gens pour leur première année de prépa</p>
             </div>
         </div>
         <div class="row gy-4 row-cols-2 row-cols-md-4" style="width: 100%;margin: 0%;">
             <div class="col" style="margin: 0%;width: 25%;height: 70vh;background: url(&quot;assets/img/cadre_22.png&quot;) center / contain no-repeat, rgba(255,255,255,0);padding-right: 0px;padding-left: 0px;">
                 <div class="card border-0 shadow-none" style="background: rgba(255,255,255,0);width: 104%;height: 100%;text-align: center;">
                     <div class="card-body text-center d-flex flex-column align-items-center p-0" style="width: 100%;">
-                        <h1 style="color: var(--bs-body-color);font-size: 1.8vw;font-family: Dekko;font-weight: bold;text-align: center;margin-bottom: 0px;margin-top: 33vh;margin-right: 2vh;">Elsa Francois</h1>
+                        <h1 style="color: var(--bs-body-color);font-size: 1.8vw;font-family: Dekko;font-weight: bold;text-align: center;margin-bottom: 0px;margin-top: 33vh;margin-right: 2vh;margin-left: 0.4vh;">Elsa Francois</h1>
                         <p class="text-muted card-text mb-2">Réseaux</p>
                         <ul class="list-inline fs-6 text-muted w-100 mb-0">
                             <li class="list-inline-item text-center">
@@ -87,8 +94,8 @@
                                     </svg></div>
                             </li>
                             <li class="list-inline-item text-center">
-                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
-                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                                        <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
                                     </svg></div>
                             </li>
                         </ul>
@@ -98,8 +105,8 @@
             <div class="col" style="margin: 0%;width: 25%;height: 70vh;background: url(&quot;assets/img/cadre_22.png&quot;) center / contain no-repeat, rgba(255,255,255,0);padding-right: 0px;padding-left: 0px;">
                 <div class="card border-0 shadow-none" style="background: rgba(255,255,255,0);width: 104%;height: 100%;text-align: center;">
                     <div class="card-body text-center d-flex flex-column align-items-center p-0" style="width: 100%;">
-                        <h1 style="color: var(--bs-body-color);font-size: 1.7vw;font-family: Dekko;font-weight: bold;text-align: center;margin-bottom: 0px;margin-top: 33vh;margin-right: 2vh;">Quentin Robert</h1>
-                        <p class="text-muted card-text mb-2">Résaux<br></p>
+                        <h1 style="color: var(--bs-body-color);font-size: 1.7vw;font-family: Dekko;font-weight: bold;text-align: center;margin-bottom: 0px;margin-top: 33vh;margin-right: 2vh;margin-left: 0.5vh;">Quentin Robert</h1>
+                        <p class="text-muted card-text mb-2">Réseaux<br></p>
                         <ul class="list-inline fs-6 text-muted w-100 mb-0">
                             <li class="list-inline-item text-center">
                                 <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-discord">
@@ -112,8 +119,8 @@
                                     </svg></div>
                             </li>
                             <li class="list-inline-item text-center">
-                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
-                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                                        <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
                                     </svg></div>
                             </li>
                         </ul>
@@ -123,7 +130,7 @@
             <div class="col" style="margin: 0%;width: 25%;height: 70vh;background: url(&quot;assets/img/cadre_22.png&quot;) center / contain no-repeat, rgba(255,255,255,0);padding-right: 0px;padding-left: 0px;">
                 <div class="card border-0 shadow-none" style="background: rgba(255,255,255,0);width: 104%;height: 100%;text-align: center;">
                     <div class="card-body text-center d-flex flex-column align-items-center p-0" style="width: 100%;">
-                        <h1 style="color: var(--bs-body-color);font-size: 1.7vw;font-family: Dekko;font-weight: bold;text-align: center;margin-bottom: 0px;margin-top: 33vh;margin-right: 2vh;">Aglaé Tournois</h1>
+                        <h1 style="color: var(--bs-body-color);font-size: 1.7vw;font-family: Dekko;font-weight: bold;text-align: center;margin-bottom: 0px;margin-top: 33vh;margin-right: 2vh;margin-left: 0.5vh;">Aglaé Tournois</h1>
                         <p class="text-muted card-text mb-2">Réseaux</p>
                         <ul class="list-inline fs-6 text-muted w-100 mb-0">
                             <li class="list-inline-item text-center">
@@ -137,8 +144,8 @@
                                     </svg></div>
                             </li>
                             <li class="list-inline-item text-center">
-                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
-                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                                        <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
                                     </svg></div>
                             </li>
                         </ul>
@@ -148,7 +155,7 @@
             <div class="col" style="margin: 0%;width: 25%;height: 70vh;background: url(&quot;assets/img/cadre_22.png&quot;) center / contain no-repeat, rgba(255,255,255,0);padding-right: 0px;padding-left: 0px;">
                 <div class="card border-0 shadow-none" style="background: rgba(255,255,255,0);width: 104%;height: 100%;text-align: center;">
                     <div class="card-body text-center d-flex flex-column align-items-center p-0" style="width: 100%;">
-                        <h1 style="color: var(--bs-body-color);font-size: 1.7vw;font-family: Dekko;font-weight: bold;text-align: center;margin-bottom: 0px;margin-top: 33vh;margin-right: 2vh;">Lorenzo Taalba</h1>
+                        <h1 style="color: var(--bs-body-color);font-size: 1.7vw;font-family: Dekko;font-weight: bold;text-align: center;margin-bottom: 0px;margin-top: 33vh;margin-right: 2vh;margin-left: 0.6vh;">Lorenzo Taalba</h1>
                         <p class="text-muted card-text mb-2">Réseaux</p>
                         <ul class="list-inline fs-6 text-muted w-100 mb-0">
                             <li class="list-inline-item text-center">
@@ -162,8 +169,8 @@
                                     </svg></div>
                             </li>
                             <li class="list-inline-item text-center">
-                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
-                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                                        <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
                                     </svg></div>
                             </li>
                         </ul>
@@ -196,7 +203,9 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery-No-Gutters.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
